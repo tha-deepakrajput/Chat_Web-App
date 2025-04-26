@@ -8,8 +8,10 @@ const io = new Server(server);
 
 // Socket.io
 io.on("connection", (socket) => {
-    console.log("A new user has connected", socket.id);
-})
+    socket.on("user-message", (message) => {
+        io.emit("message", message);
+    });
+});
 
 app.use(express.static("./public"));
 
