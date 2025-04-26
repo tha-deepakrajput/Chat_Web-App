@@ -1,0 +1,22 @@
+{
+  "name": "chat_web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tha-deepakrajput/Chat_Web-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tha-deepakrajput/Chat_Web-App/issues"
+  },
+  "homepage": "https://github.com/tha-deepakrajput/Chat_Web-App#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
